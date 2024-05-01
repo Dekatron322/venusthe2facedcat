@@ -147,3 +147,79 @@ body {
     opacity 0.5s ease,
     transform 0.5s ease;
 }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation ease 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flip-left {
+  transform: perspective(400px) rotateY(-90deg);
+  animation: flipLeftAnimation ease 1s forwards;
+}
+
+.flip-right {
+  transform: perspective(400px) rotateY(90deg);
+  animation: flipRightAnimation ease 1s forwards;
+}
+
+@keyframes flipLeftAnimation {
+  0% {
+    transform: perspective(400px) rotateY(-90deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+}
+
+@keyframes flipRightAnimation {
+  0% {
+    transform: perspective(400px) rotateY(90deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+}
+
+.fade-down {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: fadeDownAnimation ease 1s forwards;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeUpAnimation ease 1s forwards;
+}
+
+@keyframes fadeDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUpAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
