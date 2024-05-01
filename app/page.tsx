@@ -76,7 +76,7 @@ export default function Web() {
                     <Image src="/Paw.png" width={40} height={40} alt="" />
                   </div>
                   <div className="pl-10">
-                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <span className="timeline-date text-[#FFCC00]">Venus</span>
                     <h3 className="timeline-title text-2xl font-bold">COMMUNITY TAKEOVER</h3>
                     <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
                       Community building and token distribution. Listing on major centralized exchanges (CEXs) to
@@ -89,7 +89,7 @@ export default function Web() {
                     <Image src="/Paw.png" width={40} height={40} alt="" />
                   </div>
                   <div className="pl-10">
-                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <span className="timeline-date text-[#FFCC00]">Venus</span>
                     <h3 className="timeline-title text-2xl font-bold">COMMUNITY GROWTH AND SUSTAINABILITY</h3>
                     <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
                       Continued community engagement. Endless pool of creative memes. exploration of partnerships and
@@ -103,7 +103,7 @@ export default function Web() {
                     <Image src="/Paw.png" width={40} height={40} alt="" />
                   </div>
                   <div className="pl-10">
-                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <span className="timeline-date text-[#FFCC00]">Venus</span>
                     <h3 className="timeline-title text-2xl font-bold">COMMUNITY TRADING BOT</h3>
                     <p className="mb-6 flex max-w-2xl items-end font-light lg:mb-8 lg:text-xl">
                       Develop a fully functional easy-to-use trading bot
@@ -115,7 +115,7 @@ export default function Web() {
                     <Image src="/Paw.png" width={40} height={40} alt="" />
                   </div>
                   <div className="pl-10">
-                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <span className="timeline-date text-[#FFCC00]">Venus</span>
                     <h3 className="timeline-title text-2xl font-bold">NFT INTEGRATION</h3>
                     <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
                       Integration of non-fungible tokens (NFTs) into the ecosystem to immortalize the Two Face Cat.
