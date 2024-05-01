@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import { useState, useEffect } from "react"
+import { useEffect, useState } from "react"
 
 import { Button } from "components/Button/Button"
 import AuthProviders from "components/ProvidersComponents/AuthProviders"

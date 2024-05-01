@@ -81,7 +81,7 @@ export default function Web() {
                 <h3 className="text-2xl font-bold">COMMUNITY GROWTH AND SUSTAINABILITY</h3>
                 <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
                   Continued community engagement. Endless pool of creative memes. exploration of partnerships and
-                  collaborations to expand the project's reach and influence
+                  collaborations to expand the project&apos;s reach and influence
                 </p>
               </div>
               <div className="mt-10">
@@ -142,7 +142,7 @@ export default function Web() {
               <div className="mt-10">
                 <h3 className="text-2xl font-bold">BUY SOLANA</h3>
                 <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
-                  To acquire $VENUS token, you'll need Solana in your phantom wallet. Purchase Solanaa from Major
+                  To acquire $VENUS token, you&apos;ll need Solana in your phantom wallet. Purchase Solanaa from Major
                   cryptocurrency exchanges like Coinbase, Binance or Kraken
                 </p>
               </div>
