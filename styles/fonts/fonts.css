@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Naughty Monster";
+  src:
+    url("./NaughtyMonsterRegular.woff2") format("woff2"),
+    url("./NaughtyMonsterRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
