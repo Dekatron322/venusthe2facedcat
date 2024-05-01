@@ -70,31 +70,58 @@ export default function Web() {
               <h1 className="mb-4  max-w-2xl text-2xl leading-none tracking-tight dark:text-[red] md:text-xl xl:text-xl">
                 Over the rainbow, after the moon... VENUS !
               </h1>
-              <div className="mt-10">
-                <h3 className="text-2xl font-bold">COMMUNITY TAKEOVER</h3>
-                <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
-                  Community building and token distribution. Listing on major centralized exchanges (CEXs) to increase
-                  accessibility
-                </p>
-              </div>
-              <div className="mt-10">
-                <h3 className="text-2xl font-bold">COMMUNITY GROWTH AND SUSTAINABILITY</h3>
-                <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
-                  Continued community engagement. Endless pool of creative memes. exploration of partnerships and
-                  collaborations to expand the project&apos;s reach and influence
-                </p>
-              </div>
-              <div className="mt-10">
-                <h3 className="text-2xl font-bold">COMMUNITY TRADING BOT</h3>
-                <p className="mb-6 flex max-w-2xl items-end font-light lg:mb-8 lg:text-xl">
-                  Develop a fully functional easy-to-use trading bot
-                </p>
-              </div>
-              <div className="mt-10">
-                <h3 className="text-2xl font-bold">NFT INTEGRATION</h3>
-                <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
-                  Integration of non-fungible tokens (NFTs) into the ecosystem to immortalize the Two Face Cat.
-                </p>
+              <div className="timeline">
+                <div className="relative">
+                  <div className="dot">
+                    <Image src="/Paw.png" width={40} height={40} alt="" />
+                  </div>
+                  <div className="pl-10">
+                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <h3 className="timeline-title text-2xl font-bold">COMMUNITY TAKEOVER</h3>
+                    <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
+                      Community building and token distribution. Listing on major centralized exchanges (CEXs) to
+                      increase accessibility
+                    </p>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="dot">
+                    <Image src="/Paw.png" width={40} height={40} alt="" />
+                  </div>
+                  <div className="pl-10">
+                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <h3 className="timeline-title text-2xl font-bold">COMMUNITY GROWTH AND SUSTAINABILITY</h3>
+                    <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
+                      Continued community engagement. Endless pool of creative memes. exploration of partnerships and
+                      collaborations to expand the project&apos;s reach and influence
+                    </p>
+                  </div>
+                </div>
+
+                <div className="relative">
+                  <div className="dot">
+                    <Image src="/Paw.png" width={40} height={40} alt="" />
+                  </div>
+                  <div className="pl-10">
+                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <h3 className="timeline-title text-2xl font-bold">COMMUNITY TRADING BOT</h3>
+                    <p className="mb-6 flex max-w-2xl items-end font-light lg:mb-8 lg:text-xl">
+                      Develop a fully functional easy-to-use trading bot
+                    </p>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="dot">
+                    <Image src="/Paw.png" width={40} height={40} alt="" />
+                  </div>
+                  <div className="pl-10">
+                    <span className="timeline-date text-[#FFCC00]">13 November 2021</span>
+                    <h3 className="timeline-title text-2xl font-bold">NFT INTEGRATION</h3>
+                    <p className="mb-6 flex max-w-2xl items-end justify-end font-light lg:mb-8 lg:text-xl">
+                      Integration of non-fungible tokens (NFTs) into the ecosystem to immortalize the Two Face Cat.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div
