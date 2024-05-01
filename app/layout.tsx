@@ -9,12 +9,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   openGraph: {
-    url: "https://venusthe2facedcat.com//",
+    url: "https://venusthe2facedcat.com/",
     images: [
       {
         width: 1200,
         height: 630,
-        url: "https://raw.githubusercontent.com/Dekatron322/venusthe2facedcat/main/public/Venus-Logo.png",
+        url: "https://raw.githubusercontent.com/Dekatron322/venusthe2facedcat/main/public/venus.png",
       },
     ],
   },
